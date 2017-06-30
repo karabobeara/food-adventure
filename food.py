@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 
+=======
+import time
+>>>>>>> ab0ae1ef791a249026303539dbb21d0df281640a
 
+=======
 
 #lets go!!!
 
@@ -38,6 +43,7 @@ def game():
             time.sleep(1)
             choice2a = input("Do you chose the salad or leftovers?")
 
+<<<<<<< HEAD
 
 
 
@@ -86,6 +92,32 @@ def game():
 
 
 
+
+
+
+
+
+
+
+
+
+
+=======
+            # pick salad
+            if choice2a == "salad":
+                print ("Congrats! You're healthy....must be nice...")
+                replay()
+            # pick leftovers
+            if choice2a == "leftovers":
+                print ("Did you even check them? No, of course you didn't.... you got dysentary")
+                replay()
+>>>>>>> ab0ae1ef791a249026303539dbb21d0df281640a
+
+
+
+
+
+<<<<<<< HEAD
 
 
 
@@ -106,13 +138,34 @@ def game():
         if choice2a == "freezer":
             print ("You have chosen the colder fridge.  There is ice cream and hot pockets. Well, cold right now.")
             time.sleep(1)
+=======
+            # picked freezer
+        if choice2 == "freezer":
+            print ("You have chosen the colder fridge.  There are ice cream and hot pockets. Well, cold right now.")
+            time.sleep(2)
+>>>>>>> ab0ae1ef791a249026303539dbb21d0df281640a
             print ("...")
             time.sleep(1)
             print ("walking")
             time.sleep(1)
             print ("... destination reached.")
             time.sleep(1)
-            print ("Do which one do you pick?")
+            choice2b = input("Which on do you pick? (ice cream or hot pocket)")
+
+            #pick ice cream
+            if choice2b == "ice cream":
+                print ("Now go watch Netflix")
+                replay()
+            #pick hot pocket
+            if choice2b == "hot pocket":
+                choice2bi = input("Microwave or thaw?")
+                if choice2bi == "microwave"
+                    print ("You burn your toungue yet the middle is still freezing...delicious, right?")
+                    replay()
+
+                if choice2bi == "thaw"
+                    print ("You were starving and gnawed the frozen hunk of cheese and bread... delicious, right?")
+                    replay()
 
             # make them chose one & branch out
 
@@ -165,5 +218,3 @@ def game():
         replay()
 
 game()
-
-#>>>>>>> fb3b6dfdb90bb45e6d0b21c152f0e4c5f1363474
