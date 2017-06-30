@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-
+import time
 
 #lets go!!!
 
@@ -26,8 +26,6 @@ def game():
 
 game()
 =======
-
-import time
 
 
 
