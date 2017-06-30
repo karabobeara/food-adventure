@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-
-=======
 import time
->>>>>>> ab0ae1ef791a249026303539dbb21d0df281640a
-
-=======
 
 #lets go!!!
-
-
 
 def replay():
     ask = input("Try again? (yes or no)\n")
@@ -43,66 +35,6 @@ def game():
             time.sleep(1)
             choice2a = input("Do you chose the salad or leftovers?")
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
             # pick salad
             if choice2a == "salad":
                 print ("Congrats! You're healthy....must be nice...")
@@ -111,46 +43,17 @@ def game():
             if choice2a == "leftovers":
                 print ("Did you even check them? No, of course you didn't.... you got dysentary")
                 replay()
->>>>>>> ab0ae1ef791a249026303539dbb21d0df281640a
 
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            # pick salad
-        if choice2a == "freezer":
-            print ("You have chosen the colder fridge.  There is ice cream and hot pockets. Well, cold right now.")
-            time.sleep(1)
-=======
-            # picked freezer
         if choice2 == "freezer":
             print ("You have chosen the colder fridge.  There are ice cream and hot pockets. Well, cold right now.")
             time.sleep(2)
->>>>>>> ab0ae1ef791a249026303539dbb21d0df281640a
             print ("...")
             time.sleep(1)
-            print ("walking")
+            print ("* walking *")
             time.sleep(1)
             print ("... destination reached.")
             time.sleep(1)
-            choice2b = input("Which on do you pick? (ice cream or hot pocket)")
+            choice2b = input("Which do you pick? (ice cream or hot pocket)")
 
             #pick ice cream
             if choice2b == "ice cream":
@@ -167,23 +70,6 @@ def game():
                     print ("You were starving and gnawed the frozen hunk of cheese and bread... delicious, right?")
                     replay()
 
-            # make them chose one & branch out
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             # picked Costco
         if choice2 == "Costco":
             time.sleep(1)
@@ -195,14 +81,12 @@ def game():
             time(1)
             print ("Lol. Why, there's food in your fridge.")
 
-            choicec = input("What do you want to waste money (protien bars) or save money (free samples)?")
-            if choicec == "protien bars":
-                print ("Now, I have less money and have to workout.")
-
+            choice2c = input("Do you want to waste money (protien bars)? Save money (free samples)?")
+            if choice2c == "protien bars":
+                print ("Now, I have less money and I have to workout :(")
 
             if choicec == "free samples":
-                print (".")
-            #food pick
+                print ("Yay free food! You must budget...noice.")
 
 
 
@@ -213,6 +97,7 @@ def game():
 
 
 
+#first ending
     else:
         print ("You stayed on the couch for 3 days and starved.")
         replay()
