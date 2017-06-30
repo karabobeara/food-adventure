@@ -41,7 +41,11 @@ def game():
                 time.sleep(1)
                 print ("for once...\nmust be nice...")
                 time.sleep(1)
+<<<<<<< HEAD
                 print ("lol. you win at life. jk only this game.\n")
+=======
+                print ("lol. You win at life. jk only this game.\n")
+>>>>>>> cd09237df66fca35387c7c37b4b44a247660d215
                 replay()
             # pick leftovers
             if choice2a == "leftovers":
@@ -71,7 +75,11 @@ def game():
             if choice2b == "ice cream":
                 print ("Now go watch Netflix.\n")
                 time.sleep(2)
+<<<<<<< HEAD
                 print ("...You're now a professional procrastinator. LOL.\nNow get your butt of the couch and try again.\n")
+=======
+                print ("...You're now a professonal procrastinator. LOL.\nNow get your butt off the couch and try again.\n")
+>>>>>>> cd09237df66fca35387c7c37b4b44a247660d215
                 replay()
             #pick hot pocket
             if choice2b == "hot pocket":
@@ -79,9 +87,15 @@ def game():
                 if choice2bi == "microwave":
                     print ("You burn your toungue yet the middle is still freezing...delicious, right?\nYou rush to the ER due to excessive heartburn...\n")
                     time.sleep(3)
+<<<<<<< HEAD
                     print ("The anticipation is killing me...no wait...it's killing you.\n")
                     time.sleep(2)
                     print ("You died. LOL.\n")
+=======
+                    print ("The anticipation is killing me...no wait it's killing you.\n")
+                    time.sleep(2)
+                    print("You died. LOL.\n")
+>>>>>>> cd09237df66fca35387c7c37b4b44a247660d215
                     replay()
 
                 if choice2bi == "thaw":
@@ -103,6 +117,7 @@ def game():
             if choice2c == "protein bars":
                 print ("Now you have less money and have to workout :(\n")
                 time.sleep(2)
+<<<<<<< HEAD
                 print ("You go home...\n")
                 time.sleep(2)
                 print ("You attempt to do a push-up\n...you break both arms. LOL.\n")
@@ -118,7 +133,22 @@ def game():
                 print ("But you're alone. LOL.\n")
                 replay()
 
+=======
+                print("You go home...\n")
+                time.sleep(2)
+                print ("You attempt to do a push-up\n...you break both arms. LOL.\n")
+                replay()
+>>>>>>> cd09237df66fca35387c7c37b4b44a247660d215
 
+            if choice2c == "free samples":
+                print ("Yay free food! You must budget...noice.\n")
+                time.sleep(1)
+                print ("3 years later...\n")
+                time.sleep(3)
+                print ("You have saved enough for a mansion. LIT.\n")
+                time.sleep(3)
+                print ("But you're alone. LOL.\n")
+                replay()
 
 
 
